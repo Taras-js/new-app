@@ -1,0 +1,17 @@
+.login {
+    max-width: 300px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+.login h2, p {
+    text-align: center;
+}
+.form-control {
+    width: 320px;
+}
+.input {
+    width: 300px;
+}

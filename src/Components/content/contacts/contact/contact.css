@@ -1,0 +1,48 @@
+img {
+    width: 320px;
+}
+.button {
+    width: 320px;
+
+}
+.button-newcontact {
+    position: relative;
+    display: grid;
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 8px;
+
+}
+.wrapper-card {
+    display: grid;
+    min-width: 320px;
+    margin: 0 auto;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+.search {
+    width: 320px;
+}
+
+.avatar {
+    width: 320px;
+    height: 380px;
+}
+.modal {
+    width: 320px;
+    margin: 0 auto;
+}
+.box-modal {
+    background-color: white;
+}
+.text_field {
+    width: 320px;
+}
+@media screen and (min-width: 320px) and (max-width: 870px) {
+    .wrapper-card {
+
+        grid-template-columns: 320px;
+
+    }
+}
